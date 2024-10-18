@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="site-title">Movie-Mania</h1>
+    </header>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="search-input" placeholder="Search Movie..." autocomplete="off">
+            <button id="search-button">Search</button>
+        </div>
+        <div class="loading-spinner" id="loading-spinner"></div>
+        <div class="error-message" id="error-message"></div>
+       
+        <div class="movies-container trending">
+            <h1>Trending Movies</h1>
+            <div class="movies-grid" id="trending-movies">
+                <!-- Trending movies will be rendered here -->
+            </div>
+        </div>
+       
+        <div class="movies-container categories">
+            <h1>Categories</h1>
+            <div class="category-buttons">
+                <button class="category-button" data-genre="28">Action</button>
+                <button class="category-button" data-genre="35">Comedy</button>
+                <button class="category-button" data-genre="18">Drama</button>
+                <!-- Add more categories as needed -->
+            </div>
+            <div class="movies-grid" id="category-movies">
+                <!-- Movies from selected category will be rendered here -->
+            </div>
+        </div>
+
+        <div class="movies-container watchlist">
+            <h1>Watchlist</h1>
+            <div class="movies-grid" id="watchlist-movies">
+                <!-- Watchlist movies will be rendered here -->
+            </div>
+        </div>
+    </div>
+
+
+    <div class="popup-container" id="popup-container"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
