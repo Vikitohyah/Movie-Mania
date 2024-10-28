@@ -52,7 +52,7 @@ Open script.js and replace YOUR_API_KEY with your actual TMDb API key:
 const API_KEY = 'YOUR_API_KEY';
 
 
-Usage
+## Usage
 
 1. Open the project locally:
 
@@ -71,19 +71,19 @@ Add movies to your watchlist using the heart icon.
 Toggle between dark and light themes using the switch in the header.
 
 
-Project Structure
+## Project Structure
 
 movie-mania/
-│
-├── index.html                # Main HTML file
-├── style.css                 # Main CSS file
-├── script.js                 # Main JavaScript file
-├── README.md                 # Documentation
-└── assets/                   # gif
+
+   index.html                # Main HTML file
+   style.css                 # Main CSS file
+   script.js                 # Main JavaScript file
+   README.md                 # Documentation
+   assets/                   # gif
 
 
 
-License
+## License
 
 This project is licensed under the MIT License.
 
