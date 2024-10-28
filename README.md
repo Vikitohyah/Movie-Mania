@@ -1,7 +1,3 @@
-
-
----
-
 # Movie-Mania
 
 Movie-Mania is a responsive web application that allows users to explore popular movies, browse by categories, search for favorites, view detailed movie information, and create a personalized watchlist. Users can also toggle between light and dark modes for a more comfortable viewing experience.
@@ -49,14 +45,11 @@ Visit The Movie Database (TMDb) and create an account.
 Generate an API key from the developer settings.
 
 
-
 4. Configure API key:
 
 Open script.js and replace YOUR_API_KEY with your actual TMDb API key:
 
 const API_KEY = 'YOUR_API_KEY';
-
-
 
 
 Usage
@@ -78,8 +71,6 @@ Add movies to your watchlist using the heart icon.
 Toggle between dark and light themes using the switch in the header.
 
 
-
-
 Project Structure
 
 movie-mania/
@@ -96,8 +87,4 @@ License
 
 This project is licensed under the MIT License.
 
-
 ---
-
-
-
