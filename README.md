@@ -1,98 +1,103 @@
-# Movie Mania
 
-Welcome to **Movie Mania**, a responsive web application that allows users to explore movies, search for their favorites, view detailed information, and create a personalized watchlist.
+
+---
+
+# Movie-Mania
+
+Movie-Mania is a responsive web application that allows users to explore popular movies, browse by categories, search for favorites, view detailed movie information, and create a personalized watchlist. Users can also toggle between light and dark modes for a more comfortable viewing experience.
 
 ## Table of Contents
-
 - [Features](#features)
-- [Technologies Used](#technologies-used)
+- [Demo](#demo)
+- [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Project Structure](#project-structure)
 - [License](#license)
-- [Contact](#contact)
 
 ## Features
+- **Trending Movies**: Display of popular trending movies.
+- **Categories**: Filter movies by categories like Action, Comedy, and Drama.
+- **Search**: Search functionality to find movies by title.
+- **Watchlist**: Add and remove movies from a personal watchlist.
+- **Dark/Light Mode**: Toggle between dark and light themes for enhanced viewing comfort.
+- **Movie Details**: View details of each movie, including trailers and ratings.
 
-- **Search for Movies**: Quickly find your favorite films using the search bar.
-- **View Movie Details**: Click on any movie to view detailed information, including synopsis and trailer.
-- **Watchlist**: Add movies to your personalized watchlist for easy access later.
-- **Responsive Design**: Accessible on all devices, including desktops, tablets, and mobile phones.
+## Demo
+![Movie-Mania Demo](./assets/demo-movie-mania.gif)
 
-## Technologies Used
-
-- **HTML**: Structure of the web application.
-- **CSS**: Styling and layout of the application.
-- **JavaScript**: Interactivity and functionality.
-- **APIs**: Fetching movie data and trailer links (e.g., TMDb API).
+## Tech Stack
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **TMDb API**: Used for fetching movie data.
 
 ## Installation
-
-To run the project locally, follow these steps:
-
-1. Clone the repository:
-
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Vikitohyah/movie-mania.git
+   git clone https://github.com/Vikitohyah/Movie-Mania
 
 2. Navigate to the project directory:
 
 cd movie-mania
 
 
-3. Open index.html in your web browser.
+3. Create a TMDb account and get an API key:
+
+Visit The Movie Database (TMDb) and create an account.
+
+Generate an API key from the developer settings.
+
+
+
+4. Configure API key:
+
+Open script.js and replace YOUR_API_KEY with your actual TMDb API key:
+
+const API_KEY = 'YOUR_API_KEY';
+
 
 
 
 Usage
 
-1. Use the search bar at the top to find movies.
+1. Open the project locally:
 
-
-2. Click on a movie poster to view its details.
-
-
-3. Click on the "Add to Watchlist" button to save your favorite movies.
-
-
-4. Click the "Watchlist" button to view your saved movies.
+Open index.html in a web browser.
 
 
 
-Contributing
+2. Interact with the app:
 
-Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
+Use the search bar to find movies.
 
-1. Fork the project.
+Click on movies to view details and trailers.
 
+Add movies to your watchlist using the heart icon.
 
-2. Create your feature branch:
-
-git checkout -b feature/AmazingFeature
-
-
-3. Commit your changes:
-
-git commit -m 'Add some amazing feature'
+Toggle between dark and light themes using the switch in the header.
 
 
-4. Push to the branch:
-
-git push origin feature/AmazingFeature
 
 
-5. Open a pull request.
+Project Structure
+
+movie-mania/
+│
+├── index.html                # Main HTML file
+├── style.css                 # Main CSS file
+├── script.js                 # Main JavaScript file
+├── README.md                 # Documentation
+└── assets/                   # gif
 
 
 
 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
-Contact
 
-For questions or inquiries, feel free to reach out:
+---
 
-Email - victoriaedorh@gmail.com
 
-GitHub: Vikitohyah
+
