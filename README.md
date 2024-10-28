@@ -25,7 +25,6 @@ Welcome to **Movie Mania**, a responsive web application that allows users to ex
 - **CSS**: Styling and layout of the application.
 - **JavaScript**: Interactivity and functionality.
 - **APIs**: Fetching movie data and trailer links (e.g., TMDb API).
-- **Bootstrap**: For responsive design.
 
 ## Installation
 
@@ -34,7 +33,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/movie-mania.git
+   git clone https://github.com/Vikitohyah/movie-mania.git
 
 2. Navigate to the project directory:
 
